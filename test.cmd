@@ -5,3 +5,4 @@ set /p input="To close server enter q, to close without persisting the world ent
 echo "Persisting Minecraft world to GitHub"
 git add .
 git commit -m "Updating Minecraft world"
+git push origin/master
